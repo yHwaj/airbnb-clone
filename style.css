@@ -1,0 +1,329 @@
+body {
+
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.inner {
+  width: 1130px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+header {
+  width: 100vw;
+  height: 618px;
+  background-image: url('./img/background.webp');
+  background-size: 100vw 618px;
+  background-repeat: no-repeat;
+}
+header .inner .title-bar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .inner .title-bar a {
+  color: #fff;
+  display: block;
+}
+header .inner .title-bar .logo {
+  width: 311px;
+  height: 80px;
+}
+header .inner .title-bar .logo-size::before {
+  width: 118px;
+  height: 64px;
+}
+header .inner .title-bar .logo-size {
+  width: 118px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+header .inner .title-bar .logo .homelogo {
+  width: 102px;
+  height: 32px;
+  display: block;
+}
+header .inner .title-bar .main-title {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+header .inner .title-bar .main-title ul.main-title-menu {
+  width: 348px;
+  height: 48px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .inner .title-bar .main-title ul.main-title-menu a {
+  display: block;
+  padding: 10px 16px;
+}
+header .inner .title-bar .main-title ul.main-title-menu .main-menu::after {
+  content:"";
+  width: 15px;
+  margin-top: 2px;
+  margin-left: 5px;
+  display: block;
+  border-bottom: 2px solid #fff;
+}
+header .inner .title-bar .main-title ul.main-title-menu a:last-child {
+  padding: none;
+}
+header .inner .title-bar .sub-title {
+  width: 311px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .inner .title-bar .sub-title .sub-title-menu {
+  color: #fff;
+  display: flex;
+}
+header .inner .title-bar .sub-title .sub-title-menu a {
+  display: block;
+  font-size: 14px;
+  padding: 14px 14px;
+}
+header .inner .title-bar .sub-title .sub-title-menu .icons {
+  width: 16px;
+  height: 16px;
+  font-size: 18px;
+  padding: 13px 15px;
+  cursor: pointer;
+}
+header .inner .title-bar .login {
+  color: rgb(65, 65, 65);
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 21px;
+  padding: 5px 5px 5px 12px;
+}
+header .inner .title-bar .login .material-icons:first-child {
+  font-size: 16px;
+  cursor: pointer;
+}
+header .inner .title-bar .login .material-icons:last-child{
+  font-size: 30px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+
+
+.search-bar {
+  width: 848px;
+  height: 66px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 32px;
+  margin: auto;
+  color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar a {
+  display: #222222;
+  font-size: 12px;
+  padding-bottom: 2px;
+  line-height: 16px;
+}
+.search-bar input {
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #717171;
+  background: none;
+}
+.search-bar-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.search-bar .number1 {
+  width: 269.98px;
+  height: 66px;
+  border-radius: 32px;
+  align-content: center;
+}
+.search-bar .number1 .number1_sub {
+  width: 205.98px;
+  height: 36px;
+  padding: 14px 32px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.search-bar .number1 .number1_sub:hover {
+  background-color: rgb(0,0,0,0.1);
+}
+.search-bar .checkBox {
+  width: 357.3px;
+  height: 66px;
+  display: flex;
+  height: 100%;
+}
+.search-bar .checkBox .number2_sub {
+  width: 180.16;
+  display: block;
+  border-radius: 32px;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+.search-bar .checkBox .number2_sub:hover {
+  background-color: rgb(0,0,0,0.1);
+}
+.search-bar .checkBox .number3_sub {
+  width: 180.16;
+  display: block;
+  border-radius: 32px;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+.search-bar .checkBox .number3_sub:hover {
+  background-color: rgb(0,0,0,0.1);
+}
+.search-bar .member {
+  width: 222.72px;
+  height: 66px;
+  display: flex;
+  height: 100%;
+  border-radius: 32px;
+}
+.search-bar .member:hover {
+  background-color: rgb(0,0,0,0.1);
+}
+.search-bar .member .number4_sub {
+  width: 121.72px;
+  border-radius: 32px;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+.search-bar .member .number5 {
+  position: relative;
+}
+.search-bar .member .round {
+  background-color: rgb(255, 0, 106);
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: -3px;
+  z-index: 10;
+}
+.search-bar .member .number5_sub {
+  width: 87.69px;
+  height: 48px;
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  z-index: 11;
+  top: 20px;
+  left: 10px;
+  cursor: pointer;
+}
+
+
+.flexible-search {
+  width: 1130px;
+  height: 324px;
+  line-height: 36px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.flexible-search .title-comment span {
+  text-align: center;
+}
+.flexible-search .search {
+  width: 421.73px;
+  height: 64px;
+  margin: 16px 0 0;
+  align-items: center;
+}
+.flexible-search .search .main-search {
+  width: 81px;
+  height: 20px;
+  background-color: #fff;
+  padding: 22px 56px;
+  border-radius: 54px;
+  margin-left: 105.42px;
+  box-shadow: 6px 5px .8em rgb(0, 0, 0, 0.2);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.flexible-search .search .main-search span {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+}
+
+
+
+#tourist {
+  height: 220px;
+}
+section .explore-nearby {
+  font-size: 32px;
+  margin: 20px 0 12px;
+}
+section .tourist-spot {
+  height: 144px;
+  padding: 8px;
+  align-content: center;
+}
+.trip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.spot-comment {
+  width: 200px;
+}
+.city {
+  line-height: 32px;
+}
+section .tourist-spot .trip-spot {
+  width: 64px;
+  height: 64px;
+  display: block;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-right: 14px;
+}
+section .tourist-spot .first-spot {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  margin-bottom: 12px;
+}
+section .tourist-spot .second-spot {
+  display: flex;
+  justify-content: space-between;
+}
